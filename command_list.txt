@@ -1,0 +1,25 @@
+cls - clear screen
+dir - show all the files and directory in the specific location
+cd.. - up to upper level of file
+cd "NAME" - enter a file with the name
+md(make directory) "NAME" - make a new directory with the name
+cd\haim\ball\banana - get to location stright
+tree - tree display of the files
+help "command" - explaining the command and its use
+dir /O:N - Display all files in a folder in a sorted form
+dir /p - Displays the files but in stages, each time the amount until the screen is full
+dir /p/O:N both sorted and in stages
+dir/p/o:e - Sorted by extensions
+dir/p/o:s - Sorted by file size
+rmdir(remove dir) - delete file
+dir >b.txt - Creates a file and puts the list of files into it
+copy b.txt c:\haim\banana\ - copy file into location
+copy b.txt c:\haim\banana\c.txt - copy file into location ana changing it name
+del b.txt - delete file from directory
+move c.txt c:\haim\banana\ transfer file to different location
+type a.txt - show file contact
+attrib a.txt (+R -read only)(+h -hidden)- deffine the file attribute
+dir *.txt - will display all txt files in the specified location
+dir 9*.txt -will display all txt files with the start 9 in their name in the specified location  
+dir 90*.txt/dir 9*1.txt/dir 9*.* - examples
+like * - ? will show 1 charecter
